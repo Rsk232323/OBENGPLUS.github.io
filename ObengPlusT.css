@@ -7,7 +7,7 @@
 body {
     height: 100vh;
     background: linear-gradient(rgba(202, 10, 10, 0.5),rgba(0,0,0,0.5)),
-    url(ObengPlus/pexels-19x14-8478206.jpg);
+    url("pexels-19x14-8478206.jpg");
     background-position: center 20vh;
     background-repeat: no-repeat;
     background-size: cover;
