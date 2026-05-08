@@ -5,7 +5,7 @@ body {
 }
 
 /* overlay seluruh halaman */
-body::before {
+body:before {
     content: "";
     position: fixed; /* supaya nutup seluruh layar */
     top: 0;
