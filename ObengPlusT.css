@@ -1,0 +1,106 @@
+*   {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(202, 10, 10, 0.5),rgba(0,0,0,0.5)),
+    url(ObengPlus/pexels-19x14-8478206.jpg);
+    background-position: center 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: red;
+}
+
+@media (max-width: 768px){
+    background-size: cover;
+}
+
+/* HEADER */
+.Header1 {
+    text-align: center;
+}
+
+.headder {
+    background: linear-gradient(rgb(255, 0, 0),rgba(245, 1, 1, 0.685));
+    height: 118px;
+}
+
+.Header1 .headder h1{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.Header1 p{
+    color: white;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+@media (max-width: 768px){
+    .Header1 h1{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .Header1 p{
+        font-size: 17px;
+    }
+}
+
+/* HEADER */
+
+/* footer */
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 30%;
+}
+
+.footer-box .foot {
+    font-size: 25px;
+}
+
+.footer-box .foot li {
+    list-style-type: none;
+}
+
+.footer-box .foot li a {
+    background-color: rgba(255, 0, 0, 0.56);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-box .foot li a:hover {
+    background-color: rgba(255, 255, 255, 0.56);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .footer-box {
+        margin-block: 40%;
+    }
+
+    .footer-box .foot {
+        font-size: 15px;
+    }
+}
+
+.footer 
+/* footer */
