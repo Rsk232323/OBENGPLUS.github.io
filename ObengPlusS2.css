@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+/* overlay seluruh halaman */
+body::before {
+    content: "";
+    position: fixed; /* supaya nutup seluruh layar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(247, 1, 1, 0.5)),
+                url(ObengPlus/pexels-19x14-8478206.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    pointer-events: none; /* biar tidak ganggu klik */
+}
+
+/* semua konten di atas overlay */
+.box {
+    position: relative;
+    z-index: 1;
+}
+.box {
+    position: relative;
+    width: 800px;
+    max-width: 500px;
+    max-height: 580px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.slides {
+    display: flex;
+    transition: 0.5s ease;
+}
+.slides img {
+    width: 100%;
+    border-radius: 10px;
+}
+.slides h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0%;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(255, 255, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#prevSlide {
+    left: 10px;
+}
+#nextSlide {
+    right: 10px;
+}
